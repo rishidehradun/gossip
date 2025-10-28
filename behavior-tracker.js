@@ -11,7 +11,7 @@
         trackingEnabled: true,
         sessionTimeout: 30 * 60 * 1000,
         sendInterval: 10000,
-        endpoint: 'https://script.google.com/macros/s/AKfycby_qFyJ250XYTp94nMnuYZUFqLQYbsEe6UQpGD4o7RH5DM37lnC5w-hmA5rgpQFc9P9/exec',
+        endpoint: 'https://script.google.com/macros/s/AKfycbzYzvcAP8et1JSl4FJ4unNmPe-0BckY2hk2cakQcm7Zn2BKuUSIYG_aDuFUhA44rV6l/exec',
         debug: false
     };
 
