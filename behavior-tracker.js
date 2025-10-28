@@ -11,7 +11,7 @@
         trackingEnabled: true,
         sessionTimeout: 30 * 60 * 1000,
         sendInterval: 10000,
-        endpoint: 'https://script.google.com/macros/s/AKfycbz8ccvgSSDIl_Kf_qiNHjViEI9eoyte4qIE9eht5IW047KKKCbWO1yhnsPbEFlG8CL5/exec',
+        endpoint: 'https://script.google.com/macros/s/AKfycbxb7mWJELHUyGxraOYEFqmnBoMwvQOTe0fQVJVM53L-g3KQE8WzGeeThotziZad2xCp/exec',
         debug: false
     };
 
@@ -451,7 +451,7 @@
             fetch(CONFIG.endpoint, {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json',
+                    'Content-Type': 'text/plain;charset=utf-8',
                 },
                 body: JSON.stringify(payload),
                 keepalive: true
